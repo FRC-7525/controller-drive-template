@@ -13,9 +13,9 @@ Check in with a mentor once you have this working (or if you're having issues!).
 
 Then, check in after completing each of the following:
 * Slow down the acceleration of the robot using a [slew rate limiter](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/filters/slew-rate-limiter.html).
-* Display a joystick value on the [SmartDashboard] as a gauge. (https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/getting-started/shuffleboard-displaying-data.html)
+* Display some joystick value on the [SmartDashboard](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/getting-started/shuffleboard-displaying-data.html) as a gauge.
 ```java
 SmartDashboard.put...(key, value);
 ``` 
 * Then, display it as a graph.
-* Display a controller button's input value on the [SmartDashboard.](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/getting-started/shuffleboard-displaying-data.html)
+* Display the controller's A button state on the [SmartDashboard.](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/getting-started/shuffleboard-displaying-data.html)
