@@ -13,7 +13,7 @@ Check in with a mentor once you have this working (or if you're having issues!).
 
 Then, check in after completing each of the following:
 * Slow down the acceleration of the robot using a [slew rate limiter](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/filters/slew-rate-limiter.html).
-* Display some joystick value on the [SmartDashboard](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/getting-started/shuffleboard-displaying-data.html) as a gauge.
+* Display some joystick value on the [SmartDashboard](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/getting-started/shuffleboard-displaying-data.html) as a gauge. (Be sure to change the dashboard implementation to Shuffleboard in the driver station.)
 ```java
 SmartDashboard.put...(key, value);
 ``` 
