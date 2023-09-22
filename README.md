@@ -6,12 +6,13 @@
 Check in with a mentor.
 
 * Install the Third-Party Library for CTRE (Phoenix).
-* Set up a program to drive the robot. Follow [this guide](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-4/creating-test-drivetrain-program-cpp-java.html). The motor controller we use is `WPI_VictorSPX` (not Talons!).
+* Set up a program to drive the robot. Follow [this guide](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-4/creating-test-drivetrain-program-cpp-java.html). The motor controller we use is `WPI_VictorSPX` (not Talons!). Feel free to only use one motor controller per side for now.
 * Drive the robot around!
 
 Check in with a mentor once you have this working (or if you're having issues!).
 
 Then, check in after completing each of the following:
+* Add the second motor controller to each side of the robot.
 * Slow down the acceleration of the robot using a [slew rate limiter](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/filters/slew-rate-limiter.html).
 * Display some joystick value on the [SmartDashboard](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/getting-started/shuffleboard-displaying-data.html) as a gauge. (Be sure to change the dashboard implementation to Shuffleboard in the driver station.)
 ```java
